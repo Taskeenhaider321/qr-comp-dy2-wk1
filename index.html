@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .card-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #d5e1ef;
+      }
+
+      .card {
+        background-color: white;
+        box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+        max-width: 17rem;
+        border-radius: 0.938rem;
+        padding: 15px;
+      }
+
+      .card-img {
+        display: flex;
+        justify-content: center;
+      }
+
+      .card-img img {
+        max-width: 15rem;
+        border-radius: 0.625rem;
+      }
+
+      .text-section {
+        text-align: center;
+        font-size: 17px;
+        font-family: "Outfit", sans-serif;
+      }
+
+      .main-heading {
+        padding: 18px 15px 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-section">
+      <div class="card">
+        <div class="card-img">
+          <img src="./images/image-qr-code.png" alt="QR Code" />
+        </div>
+        <div class="text-section">
+          <h4 class="main-heading">
+            Improve your front-end skills by building projects
+          </h4>
+          <p class="para-heading">
+            Scan to visit the frontend mentor and take your coding skills to the
+            next level
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
